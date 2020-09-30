@@ -56,6 +56,8 @@ for index in my_indexes:
 ############################## 7
 my_string = '0123456789'
 my_string_1 = my_string
+result = []
 for new_string in my_string:
   for new_string_1 in my_string_1:
-    print([new_string + new_string_1])
+      result.append(new_string + new_string_1)
+print(result)
